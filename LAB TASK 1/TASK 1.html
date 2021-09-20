@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>LAB TASK 1</h2>
+<h3>>1 Donation     > 2 Confirmation      > 2 Thank you</h3>
+<h2 style="color:red;">Donor Information</h2>
+
+<form action="/action.php">
+
+  <label for="fname"> First Name<span style="color:red">*</span></label>
+  <input type="text" id="fname" name="fname" value=""><br><br>
+  <label for="lname">Last name<span style="color:red">*</span></label>
+  <input type="text" id="lname" name="lname" value=""><br><br>
+  <label for="comp">Company</label>
+  <input type="text" id="comp" name="comp" value=""><br><br>
+  <label for="address 1">Address 1<span style="color:red">*</span></label>
+  <input type="text" id="address 1" name="address 1" value=""><br><br>
+  <label for="address 2">Address 2</label>
+  <input type="text" id="address 2" name="address 2" value=""><br><br>
+  <label for="city">City<span style="color:red">*</span></label>
+  <input type="text" id="city" name="city" value=""><br><br>
+  <label for="state">State</label>
+  <input list="browsers" name="state" id="state">
+  <datalist id="browsers">
+  <option value="Dhaka bibhag">
+  <option value="Chittagong bibhag">
+  <option value="Sylhet bibhag">
+  <option value="Rajshahi bibhag">
+  <option value="Khulna bibhag">
+  <option value="Barisal bibhag">
+  </datalist><br><br>
+  <label for="zip">Zip Code<span style="color:red">*</span></label>
+  <input type="text" id="zip" name="zip" value=""><br><br>
+  <label for="country">Country</label>
+  <input list="Country" name="country" id="country" >
+  <datalist id="Country">
+  <option value="Bangladesh">
+  <option value="Norway">
+  <option value="India">
+  <option value="Pakistan">
+  <option value="Srilanka">
+  <option value="Nepal">
+  <option value="New-zeland">
+  </datalist><br><br>
+   <label for="phn">Phone<span style="color:red">*</span></label>
+  <input type="number" id="phn" name="phn" value=""><br><br>
+   <label for="fax">Fax</label>
+  <input type="text" id="fax" name="fax" value=""><br><br>
+   <label for="email">Email<span style="color:red">*</span></label>
+  <input type="email" id="email" name="email" value=""><br><br>
+   <p>Donation Amount*<input type="radio" id="50" name="amnt1" value="">
+   <label for="50">$50</label><input type="radio" id="75" name="amnt1" value="">
+   <label for="75">$75</label><input type="radio" id="100" name="amnt1" value="">
+   <label for="100">$100</label><input type="radio" id="250" name="amnt1" value="">
+   <label for="250">$250</label><input type="radio" id="other" name="amnt1" value="">
+   <label for="other">Other</label><input type="radio" id="none" name="amnt6" value="">
+   <label for="none">None</label><br><br>             </p>
+    <label for="otheramnt">Other Amount<span style="color:red">*</span></label>
+  <input type="number" id="otheramnt" name="otheramnt" value=""><br><br>
+   <label for="yes">Recurring Donation</label>
+    <input type="checkbox" id="cheak" name="cheakyes" value="YES">
+  <label for="cheak"> I am interested in giving on regulkar basis</label><br>
+   <br>
+   <label for="yes">(Cheak if yes)</label><br><br>
+   <label for="monthcrd">Monthly Credit Card $</label>
+  <input type="text" id="monthcrd" name="monthcrd" value="">   <label for="monthcrd1">For</label>
+  <input type="text" id="monthcrd1" name="monthcrd1" value="">  <label for="monthcrd2">Months</label><br><br>
+
+
+  
+  <h2 style="color:red;" >Honorarium and Memorial Donation Information</h2>
+
+    <label for="ack">I would like to make this donation </label>
+  <input type="radio" id="lel1" name="donate to" value="to honor">
+  <label for="lvl1">To Honor</label>
+  <input type="radio" id="lvl2" name="donate to" value="In Memory of">
+  <label for="lvl2">In Memory of</label><br>
+   <label for="name">Name</label>
+  <input type="text" id="name" name="name" value=""><br><br>
+  <label for="ack">Acknowledge Donation to</label>
+  <input type="text" id="name" name="name" value=""><br><br>
+  <label for="add">Address</label>
+  <input type="text" id="name" name="name" value=""><br><br>
+  <label for="cityname">city</label>
+  <input type="text" id="name" name="name" value=""><br><br>
+  <label for="state">State</label>
+  <input list="browsers" name="state" id="state">
+  <datalist id="browsers">
+  <option value="Dhaka bibhag">
+  <option value="Chittagong bibhag">
+  <option value="Sylhet bibhag">
+  <option value="Rajshahi bibhag">
+  <option value="Khulna bibhag">
+  <option value="Barisal bibhag">
+
+  </datalist><br><br>
+   <label for="zip">Zip</label>
+  <input type="text" id="zip" name="zip" value=""><br><br>
+
+
+  <h2 style="color:red;">Additional Information</h2>
+   <label for="pl">please enter your name,company or organization as you would like it to appear in our publication:</label><br><br>
+   <label for="name1">Name</label>
+  <input type="text" id="name1" name="name1" value=""><br><br>
+
+  <input type="checkbox" id="cheak1" name="cheak1" value="">
+  <label for="cheak1">I would like my gift to remain anonymous </label><br>
+  <input type="checkbox" id="cheak2" name="cheak2" value="">
+  <label for="cheak2">My employer offer a matching gift program. I will mail the matching gift form.</label><br>
+  <input type="checkbox" id="cheak3" name="cheak3" value="">
+  <label for="cheak3">Please save the cost of acknowledging this gift by not mailing a thank you letter.</label><br><br>
+
+
+  <label for="comment">Comment</label><br>
+  <label for="comment1">(Please type any question or feedback here)</label><br>
+
+ <textarea id="w3review" name="w3review" rows="4" cols="50">
+  
+  </textarea><br><br>
+
+
+    <label for="comment">How may we contact you?</label><br>
+
+  <input type="checkbox" id="cheak11" name="cheak11" value="">
+  <label for="cheak11">Email </label><br>
+  <input type="checkbox" id="cheak22" name="cheak22" value="">
+  <label for="cheak22">Postal Mail</label><br>
+  <input type="checkbox" id="cheak33" name="cheak33" value="">
+  <label for="cheak33">Telephone</label><br>
+  <input type="checkbox" id="cheak44" name="cheak44" value="">
+  <label for="cheak44">Fax</label><br><br>
+
+  <label for="comment">I would like to receive newsltters and information about specail events by:</label><br>
+
+  <input type="checkbox" id="cheak111" name="cheak111" value="">
+  <label for="cheak111">E-mail </label><br>
+  <input type="checkbox" id="cheak222" name="cheak222" value="">
+  <label for="cheak222">Postal Mail</label><br><br>
+  <input type="checkbox" id="cheak2222" name="cheak2222" value="">
+  <label for="cheak2222">I would like information about volunteering with the</label><br><br>
+
+
+
+
+
+   <input type="reset" value="Reset"><input type="submit" value="Submit">
+ 
+</form> 
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</body>
+</html>
